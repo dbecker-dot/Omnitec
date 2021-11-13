@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSOmnitec" targetNamespace="http://tempuri.org/DSOmnitec.xsd" xmlns:mstns="http://tempuri.org/DSOmnitec.xsd" xmlns="http://tempuri.org/DSOmnitec.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSOmnitec" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSOmnitec" msprop:Generator_UserDSName="DSOmnitec">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="productos" msprop:Generator_TableClassName="productosDataTable" msprop:Generator_TableVarName="tableproductos" msprop:Generator_TablePropName="productos" msprop:Generator_RowDeletingName="productosRowDeleting" msprop:Generator_RowChangingName="productosRowChanging" msprop:Generator_RowEvHandlerName="productosRowChangeEventHandler" msprop:Generator_RowDeletedName="productosRowDeleted" msprop:Generator_UserTableName="productos" msprop:Generator_RowChangedName="productosRowChanged" msprop:Generator_RowEvArgName="productosRowChangeEvent" msprop:Generator_RowClassName="productosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="grano" msprop:Generator_ColumnVarNameInTable="columngrano" msprop:Generator_ColumnPropNameInRow="grano" msprop:Generator_ColumnPropNameInTable="granoColumn" msprop:Generator_UserColumnName="grano" type="xs:string" minOccurs="0" />
+              <xs:element name="tipoproducto" msprop:Generator_ColumnVarNameInTable="columntipoproducto" msprop:Generator_ColumnPropNameInRow="tipoproducto" msprop:Generator_ColumnPropNameInTable="tipoproductoColumn" msprop:Generator_UserColumnName="tipoproducto" type="xs:string" minOccurs="0" />
+              <xs:element name="producto" msprop:Generator_ColumnVarNameInTable="columnproducto" msprop:Generator_ColumnPropNameInRow="producto" msprop:Generator_ColumnPropNameInTable="productoColumn" msprop:Generator_UserColumnName="producto" type="xs:string" minOccurs="0" />
+              <xs:element name="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:string" minOccurs="0" />
+              <xs:element name="kg" msprop:Generator_ColumnVarNameInTable="columnkg" msprop:Generator_ColumnPropNameInRow="kg" msprop:Generator_ColumnPropNameInTable="kgColumn" msprop:Generator_UserColumnName="kg" type="xs:string" minOccurs="0" />
+              <xs:element name="ubicacion" msprop:Generator_ColumnVarNameInTable="columnubicacion" msprop:Generator_ColumnPropNameInRow="ubicacion" msprop:Generator_ColumnPropNameInTable="ubicacionColumn" msprop:Generator_UserColumnName="ubicacion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
